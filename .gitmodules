@@ -1,3 +1,6 @@
 [submodule "fake_detection_models/rine"]
 	path = fake_detection_models/rine
 	url = https://github.com/mever-team/rine
+[submodule "fake_detection_models/aide"]
+	path = fake_detection_models/aide
+	url = https://github.com/shilinyan99/AIDE.git
