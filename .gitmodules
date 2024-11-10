@@ -10,3 +10,6 @@
 [submodule "fake_detection_models/ssp"]
 	path = fake_detection_models/ssp
 	url = https://github.com/bcmi/SSP-AI-Generated-Image-Detection
+[submodule "fake_detection_models/gandct"]
+	path = fake_detection_models/gandct
+	url = https://github.com/RUB-SysSec/GANDCTAnalysis
