@@ -165,4 +165,5 @@ cython_debug/
 # fake_detection_models
 data
 /*.pth
-eval
+
+archive
