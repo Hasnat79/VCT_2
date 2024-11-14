@@ -18,8 +18,8 @@ model.eval()
 print("Model loaded and set to evaluation mode.")
 
 # Define image paths
-real_images_path = "D:\\abhilekh\\saved_images_twitter\\twitter_image"
-generated_images_path = "D:\\abhilekh\\saved_images_twitter\\dalle_image"
+real_images_path = "D:\\path_to_dataset\\saved_images_twitter\\twitter_image"
+generated_images_path = "D:\\path_to_dataset\\saved_images_twitter\\dalle_image"
 print(f"Real images path: {real_images_path}")
 print(f"Generated images path: {generated_images_path}")
 
