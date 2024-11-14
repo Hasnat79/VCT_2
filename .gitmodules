@@ -13,3 +13,12 @@
 [submodule "fake_detection_models/gandct"]
 	path = fake_detection_models/gandct
 	url = https://github.com/RUB-SysSec/GANDCTAnalysis
+[submodule "fake_detection_models/drct"]
+	path = fake_detection_models/drct
+	url = https://github.com/beibuwandeluori/DRCT
+[submodule "fake_detection_models/de-fake"]
+	path = fake_detection_models/de-fake
+	url = https://github.com/zeyangsha/De-Fake
+[submodule "fake_detection_models/occ-clip"]
+	path = fake_detection_models/occ-clip
+	url = https://github.com/uwFengyuan/OCC-CLIP.git
