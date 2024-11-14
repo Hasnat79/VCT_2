@@ -3,7 +3,7 @@ from datasets import load_dataset
 from PIL import Image
 import pandas as pd
 
-ds = load_dataset("WACV-AGID/AGID_twitter")
+ds = load_dataset("anonymous1233/twitter_AI")
 
 base_dir = "saved_images_twitter"
 image_fields = ['twitter_image', 'sd3_image', 'sd21_image', 'sdxl_image', 'dalle_image']

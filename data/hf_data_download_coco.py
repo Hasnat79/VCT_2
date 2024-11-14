@@ -3,7 +3,7 @@ from datasets import load_dataset
 from PIL import Image
 import pandas as pd
 
-ds = load_dataset("WACV-AGID/AGID_COCO")
+ds = load_dataset("anonymous1233/COCO_AI")
 
 base_dir = "saved_images_coco"
 image_fields = ['coco_image', 'sd3_image', 'sd21_image', 'sdxl_image', 'dalle_image', 'midjourney_image']
