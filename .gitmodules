@@ -13,3 +13,6 @@
 [submodule "fake_detection_models/gandct"]
 	path = fake_detection_models/gandct
 	url = https://github.com/RUB-SysSec/GANDCTAnalysis
+[submodule "fake_detection_models/deepfakedetection"]
+	path = fake_detection_models/deepfakedetection
+	url = https://github.com/lira-centre/DeepfakeDetection.git
