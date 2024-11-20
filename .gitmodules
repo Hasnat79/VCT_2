@@ -16,3 +16,21 @@
 [submodule "fake_detection_models/deepfakedetection"]
 	path = fake_detection_models/deepfakedetection
 	url = https://github.com/lira-centre/DeepfakeDetection.git
+[submodule "fake_detection_models/CNNDetection"]
+	path = fake_detection_models/CNNDetection
+	url = https://github.com/PeterWang512/CNNDetection.git
+[submodule "fake_detection_models/NPR-DeepfakeDetection"]
+	path = fake_detection_models/NPR-DeepfakeDetection
+	url = https://github.com/chuangchuangtan/NPR-DeepfakeDetection
+[submodule "fake_detection_models/DMimageDetection"]
+	path = fake_detection_models/DMimageDetection
+	url = https://github.com/grip-unina/DMimageDetection
+[submodule "fake_detection_models/LASTED"]
+	path = fake_detection_models/LASTED
+	url = https://github.com/HighwayWu/LASTED.git
+[submodule "fake_detection_models/DIRE"]
+	path = fake_detection_models/DIRE
+	url = https://github.com/ZhendongWang6/DIRE.git
+[submodule "fake_detection_models/GAN-image-detection"]
+	path = fake_detection_models/GAN-image-detection
+	url = https://github.com/polimi-ispl/GAN-image-detection.git
