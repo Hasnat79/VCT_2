@@ -6,6 +6,7 @@ A novel evaluation framework and benchmark for assessing AI-Generated Image Dete
 Dataset: ~150K images synthesized via modern text-to-image architectures <br />
 Stable Diffusion 2.1 <br />
 Stable Diffusion 3 <br />
+Stable Diffusion XL <br />
 DALL·E-3 <br />
 Midjourney 6 <br />
 
