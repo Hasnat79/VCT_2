@@ -1,28 +1,40 @@
 # Visual Counter Turing Test (VCT²)
+
 ## Overview
-We introduce the Visual Counter Turing Test (VCT^2), a benchmark of approximately 130K images with prompts sourced from New York Times tweets and MS COCO captions. VCT2 highlights the limitations of current AGID techniques in detecting AI-generated images. To address the growing need for evaluation frameworks, we propose the Visual AI Index (VAI), which assesses generated images on texture complexity, color distribution, and object coherence, establishing a new standard for evaluating image-generation AI.
+The **Visual Counter Turing Test (VCT²)** is a benchmark dataset of approximately 130,000 images with prompts sourced from New York Times tweets and MS COCO captions. VCT² highlights the limitations of current AI-generated image detection (AGID) techniques in identifying AI-generated content. 
 
-## Key Components:
-## Dataset: ~130K images synthesized via state-of-the-art (SoTA) text-to-image generation models: <br />
-Stable Diffusion 2.1 <br />
-Stable Diffusion 3 <br />
-Stable Diffusion XL <br />
-DALL·E-3 <br />
-Midjourney 6 <br />
+To address the growing need for evaluation frameworks, we introduce the **Visual AI Index (VAI)**, a novel metric designed to evaluate generative models on texture complexity, color distribution, and object coherence. This establishes a new standard for assessing image-generation AI.
 
-#### *We make our datasets publicly available which can be accessed at:* 
-COCO: https://huggingface.co/datasets/anonymous1233/COCO_AI <br />
-Twitter: https://huggingface.co/datasets/anonymous1233/twitter_AI <br />
+---
 
-## Dual-Source Prompts:
-VCT^2 includes two sets of prompts sourced from tweets by the New York Times Twitter account and captions from the MS COCO dataset.
+## Key Components
 
-## Visual AI Index
+### Dataset
+VCT² comprises ~130,000 images synthesized using state-of-the-art (SoTA) text-to-image generation models:
+- **Stable Diffusion 2.1**
+- **Stable Diffusion 3**
+- **Stable Diffusion XL**
+- **DALL·E-3**
+- **Midjourney 6**
 
-We introduce **Visual AI Index (VAI)**, a standardized metric to evaluate AI-generated images. VAI assesses generative models across key metrics:
+The datasets are publicly available:
+- **COCO Prompts Dataset:** [Hugging Face Link](https://huggingface.co/datasets/anonymous1233/COCO_AI)
+- **Twitter Prompts Dataset:** [Hugging Face Link](https://huggingface.co/datasets/anonymous1233/twitter_AI)
 
-- **Texture Complexity**: Measures texture variety using LBP entropy.
-- **Color Distribution**: Analyzes variability in HSV histograms.
-- **Object Coherence**: Evaluates edge clarity and boundary consistency.
-- **Contextual Relevance**: Assesses edge strength distribution.
-- **Image Quality**: Includes *smoothness*, *sharpness*, and *contrast* metrics.
+### Dual-Source Prompts
+VCT² includes two distinct sets of prompts:
+1. **Twitter Prompts:** Extracted from tweets by the New York Times Twitter account.
+2. **COCO Prompts:** Derived from captions in the MS COCO dataset.
+
+---
+
+## Visual AI Index (VAI)
+The **Visual AI Index (VAI)** provides a standardized metric to evaluate AI-generated images based on multiple dimensions of quality and coherence:
+
+- **Texture Complexity:** Measures texture variety using Local Binary Patterns (LBP) entropy.
+- **Color Distribution:** Analyzes variability in HSV (Hue, Saturation, Value) histograms.
+- **Object Coherence:** Evaluates edge clarity and boundary consistency.
+- **Contextual Relevance:** Assesses the distribution of edge strength across the image.
+- **Image Quality:** Includes metrics for *smoothness*, *sharpness*, and *contrast*.
+
+The VAI serves as a comprehensive evaluation tool for benchmarking the capabilities of image-generation models.
