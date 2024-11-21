@@ -87,6 +87,18 @@ This folder contains various inference scripts for detecting AI-generated images
 - Visualization capabilities
 - Detailed evaluation metrics
 
+## Usage
+Most scripts follow a similar usage pattern
+```
+python <script_name>.py --real_dir /path/to/real/images --fake_dir /path/to/fake/images
+```
+Common parameters across scripts:
+```--real_dir      # Directory containing real images
+--fake_dir      # Directory containing AI-generated images
+--model_path    # Path to the pretrained model weights
+--batch_size    # Batch size for inference
+--output_path   # Path to save results
+```
 ## Output Metrics
 Most scripts provide the following evaluation metrics:
 - Accuracy
@@ -103,3 +115,4 @@ Common dependencies across scripts:
 - PIL
 - tqdm
 - pandas
+
