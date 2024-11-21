@@ -10,29 +10,19 @@ Stable Diffusion XL <br />
 DALL·E-3 <br />
 Midjourney 6 <br />
 
-### We make our datasets publicly available which can be accessed at:
-COCO: https://huggingface.co/datasets/anonymous1233/COCO_AI
-Twitter: https://huggingface.co/datasets/anonymous1233/twitter_AI
+#### *We make our datasets publicly available which can be accessed at:* 
+COCO: https://huggingface.co/datasets/anonymous1233/COCO_AI <br />
+Twitter: https://huggingface.co/datasets/anonymous1233/twitter_AI <br />
 
 ## Dual-Source Prompts:
-New York Times Twitter <br />
-MS COCO <br />
+VCT^2 includes two sets of prompts sourced from tweets by the New York Times Twitter account and captions from the MS COCO dataset.
 
-## Technical Features:
-Evaluation Protocol: Multi-modal detection efficacy assessment <br />
-Texture complexity metrics <br />
-Object coherence analysis <br />
-Feature representation benchmarks <br />
+## Visual AI Index
 
-## Quality Assessment: 
-Introduced VₐI metrics for: <br />
-Perceptual authenticity <br />
-Structural integrity <br />
+We introduce **Visual AI Index (VAI)**, a standardized metric to evaluate AI-generated images. VAI assesses generative models across key metrics:
 
-
-## Resources
-Standardized evaluation pipeline <br />
-Reproducible benchmarking framework <br />
-## Open-source datasets: <br />
-COCO dataset adaptation <br />
-Twitter corpus collection <br />
+- **Texture Complexity**: Measures texture variety using LBP entropy.
+- **Color Distribution**: Analyzes variability in HSV histograms.
+- **Object Coherence**: Evaluates edge clarity and boundary consistency.
+- **Contextual Relevance**: Assesses edge strength distribution.
+- **Image Quality**: Includes *smoothness*, *sharpness*, and *contrast* metrics.
