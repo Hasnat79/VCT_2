@@ -3,7 +3,7 @@
 ## Overview
 The **Visual Counter Turing Test (VCT²)** is a benchmark dataset of approximately 130,000 images with prompts sourced from New York Times tweets and MS COCO captions. VCT² highlights the limitations of current AI-generated image detection (AGID) techniques in identifying AI-generated content. 
 
-To address the growing need for evaluation frameworks, we introduce the **Visual AI Index (VAI)**, a novel metric designed to evaluate generative models on texture complexity, color distribution, and object coherence. This establishes a new standard for assessing image-generation AI.
+To address the growing need for evaluation frameworks, we introduce the **Visual AI Index (V<sub>AI</sub>)**, a novel metric designed to evaluate generative models on texture complexity, color distribution, and object coherence. This establishes a new standard for assessing image-generation AI.
 
 ---
 
@@ -28,8 +28,8 @@ VCT² includes two distinct sets of prompts:
 
 ---
 
-## Visual AI Index (VAI)
-The **Visual AI Index (VAI)** provides a standardized metric to evaluate AI-generated images based on multiple dimensions of quality and coherence:
+## Visual AI Index (V<sub>AI</sub>)
+The **Visual AI Index (V<sub>AI</sub>)** provides a standardized metric to evaluate AI-generated images based on multiple dimensions of quality and coherence:
 
 - **Texture Complexity:** Measures texture variety using Local Binary Patterns (LBP) entropy.
 - **Color Distribution:** Analyzes variability in HSV (Hue, Saturation, Value) histograms.
@@ -37,4 +37,4 @@ The **Visual AI Index (VAI)** provides a standardized metric to evaluate AI-gene
 - **Contextual Relevance:** Assesses the distribution of edge strength across the image.
 - **Image Quality:** Includes metrics for *smoothness*, *sharpness*, and *contrast*.
 
-The VAI serves as a comprehensive evaluation tool for benchmarking the capabilities of image-generation models.
+The (V<sub>AI</sub>) serves as a comprehensive evaluation tool for benchmarking the capabilities of image-generation models.
