@@ -166,3 +166,7 @@ cython_debug/
 /*.pth
 
 archive
+.history
+.vscode
+cache
+*.jpg
