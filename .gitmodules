@@ -16,3 +16,18 @@
 [submodule "fake_detection_models/deepfakedetection"]
 	path = fake_detection_models/deepfakedetection
 	url = https://github.com/lira-centre/DeepfakeDetection.git
+[submodule "fake_detection_models/FakeShield"]
+	path = fake_detection_models/FakeShield
+	url = https://github.com/zhipeixu/FakeShield
+[submodule "fake_detection_models/UniversalFakeDetect"]
+	path = fake_detection_models/UniversalFakeDetect
+	url = https://github.com/WisconsinAIVision/UniversalFakeDetect.git
+[submodule "fake_detection_models/C2P-CLIP-DeepfakeDetection"]
+	path = fake_detection_models/C2P-CLIP-DeepfakeDetection
+	url = https://github.com/chuangchuangtan/C2P-CLIP-DeepfakeDetection.git
+[submodule "fake_detection_models/DRCT"]
+	path = fake_detection_models/DRCT
+	url = https://github.com/beibuwandeluori/DRCT.git
+[submodule "fake_detection_models/De-Fake"]
+	path = fake_detection_models/De-Fake
+	url = https://github.com/zeyangsha/De-Fake.git
